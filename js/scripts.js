@@ -1,6 +1,9 @@
-// My Scripts
+$(document).ready(function() {
 
-console.log('Hello World');
+    $('.tabs').tabslet(
+    {
+        
+            
+    });
 
-// Selector Action Options
-$('h1').hide(5000);
+});

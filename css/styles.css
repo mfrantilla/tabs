@@ -1,5 +1,41 @@
 /* My Styling Here */
 
-h1 {
-    color: chartreuse;
+
+main{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.tabs li{
+    background: cornflowerblue;
+    display: inline-block;
+    liststyle: none;
+    padding: 2em;
+    border-radius: .5em;
+}
+
+.tabs li a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.tabs li:hover{
+    background-color: grey;
+    transition: background-color .5s;
+}
+
+#tab-1{
+    background: grey;
+}
+
+#tab-2{
+    
+}
+#tab-3{
+    border: 1px solid #000;
+    
+    min-height: 400px;
+    padding: 2em;
 }
